@@ -1,0 +1,81 @@
+/* general */
+*{padding: 0; margin: 0;}
+
+body {background-color: #F5F1EA;}
+
+/* inicio aside */  
+
+.aside {display: flex; justify-content: space-between; font-family: Roboto Slab; font-size: 16px;}
+.btn {background-color: #CEB8A4; font-family: Roboto Slab;}
+.login a{text-decoration: none; color: #8B5D41;}
+.btn-light:hover {background-color: ##CEB8A4; text-decoration: none; font-family: Roboto Slab;}
+.login {animation: login 3s linear infinite;}
+
+@keyframes login {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: #E4D4C8;
+    }
+}
+
+/* fin aside */
+
+/* inicio nav */
+
+.nav-barBg {background-color: #F5F1EA;}
+.navbar-brand{font-family: Vollkorn; font-size: 30px; color: #8B5D41; text-transform: uppercase;}
+.navbar-nav{font-family: Roboto Slab; font-size: 20px; color: #8B5D41;}
+
+/* fin nav */
+
+/* inicio foto producto */
+
+.font {font-family: Vollkorn; font-size: 40px; padding-top: 20px; padding-bottom: 20px; color: #6F3A28;}
+.fontProd{font-family: Roboto Slab; font-size: 20px;color: #6F3A28;}
+.paddingPr{padding-bottom: 40px;}
+.vestidoAnne {filter: grayscale(90%);transition: all 1s;}
+.vestidoAnne:hover {filter: grayscale(0%);transform: scale(1.1);}
+.vestidoRuby{filter: grayscale(90%);transition: all 1s;}
+.vestidoRuby:hover{filter: grayscale(0%);transform: scale(1.1);}
+.vestidoDiane{filter: grayscale(90%);transition: all 1s;}
+.vestidoDiane:hover{filter: grayscale(0%);transform: scale(1.1);}
+
+/* fin foto producto */
+
+/* footer */
+.footerBg{background-color: #9C5D41;}
+.footerBg h2 {color: yellow; text-align: center;}
+.col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;}
+.paddingT{padding-top: 50px;}
+.centrar{text-align: center;}
+.paddingTB{padding-top: 50px;padding-bottom: 50px;}
+
+/* fin footer */
+
+/* inicio contacto */
+
+.formCt{font-family: Roboto Slab; font-size: 16px; padding-bottom: 30px; color: #6F3A28;}
+
+/* fin contacto */
+
+/* inicio login */
+
+.formPd{padding-bottom: 30px;}
+
+/* fin login */
+
+/* inicio nosotros */
+
+.img-fluid{display: flex; overflow: hidden; width: 99%; height: auto; padding-left: 10px;}
+.paddingImg{padding-top: 20px; padding-bottom: 20px;}
+
+/* fin nosotros */
+
+/* vista desktop */
+@media only screen and (min-width: 1024px){
+.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+.footerFlex{display: flex; justify-content: space-around;}
+}
