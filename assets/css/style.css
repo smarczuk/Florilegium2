@@ -49,9 +49,9 @@ body {background-color: #F5F1EA;}
 .footerBg{background-color: #9C5D41;}
 .footerBg h2 {color: yellow; text-align: center;}
 .col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;}
-.paddingT{padding-top: 50px;}
+.paddingT{padding-top: 30px;}
 .centrar{text-align: center;}
-.paddingTB{padding-top: 50px;padding-bottom: 50px;}
+.paddingTB{padding-top: 20px;padding-bottom: 20px;}
 
 /* fin footer */
 
