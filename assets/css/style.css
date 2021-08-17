@@ -46,13 +46,15 @@ body {background-color: #F5F1EA;}
 /* fin foto producto */
 
 /* footer */
-.footerBg{background-color: #9C5D41;}
-.footerBg h2 {color: yellow; text-align: center;}
-.col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;}
-.paddingT{padding-top: 30px;}
-.centrar{text-align: center;}
-.paddingTB{padding-top: 20px;padding-bottom: 20px;}
-
+footer{background-color: #9C5D41; font-family: Roboto Slab; height: auto; width: auto; padding-top: 40px; color: #6F3A28;}
+.footer-content {display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center;}
+.footer-content h3 {font-size: 1.8rem; font-weight: 400; text-transform: capitalize; line-height: 3rem;}
+.footer-content p {max-width: 500px; margin: 10px auto; line-height: 28px; font-size: 14px;}
+.socials {list-style: none; display: flex; align-items: center; justify-content: center; margin: 1rem 0 3rem 0;}
+.socials li{margin: 0 10px;}
+.socials a{text-decoration: none; color: white;}
+.socials a i{font-size: 1.1rem;}
+.socials a:hover i{color: #CEB8A4;}
 /* fin footer */
 
 /* inicio contacto */
